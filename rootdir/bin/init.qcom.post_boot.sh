@@ -303,3 +303,8 @@ function configure_memory_parameters() {
     echo $image_version > /sys/devices/soc0/image_version
     echo $image_variant > /sys/devices/soc0/image_variant
     echo $oem_version > /sys/devices/soc0/image_crm_version
+
+# Workaround for TWRP splash stuck issue with android12
+   rm -rf data/system/storage.xml
+   touch data/system/storage.xml
+   chattr +I data/system/storage.xml
