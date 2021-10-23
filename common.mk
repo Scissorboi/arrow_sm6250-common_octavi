@@ -66,11 +66,11 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/component-overrides.xml:$(TARGET_COPY_OUT_VENDOR)/etc/sysconfig/component-overrides.xml
 
 # FM
-PRODUCT_PACKAGES += \
-    FM2 \
-    libqcomfm_jni \
-    qcom.fmradio \
-    qcom.fmradio.xml
+#PRODUCT_PACKAGES += \
+#    FM2 \
+#    qcom.fmradio \
+#    libqcomfm_jni \
+#    qcom.fmradio.xml
 
 # AVB
 PRODUCT_PACKAGES += \
