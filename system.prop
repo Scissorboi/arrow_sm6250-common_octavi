@@ -51,6 +51,9 @@ persist.dbg.volte_avail_ovr=1
 persist.dbg.vt_avail_ovr=1
 persist.dbg.wfc_avail_ovr=1
 
+# Maintainer
+ro.octavi.maintainer=Teamslow-Scissordragonboy
+
 # Media
 debug.stagefright.ccodec=1
 media.settings.xml=/vendor/etc/media_profiles_vendor.xml
